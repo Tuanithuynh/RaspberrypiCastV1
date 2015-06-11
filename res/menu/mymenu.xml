@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/itemSetting" 
+        android:title="@string/Setting"
+        android:icon="@drawable/set"></item>
+    <item 
+        android:id="@+id/itemSdcard" 
+        android:title="@string/Sdcard"
+        android:icon="@drawable/sd"></item>
+    <item 
+        android:id="@+id/itemRaspi" 
+        android:title="@string/Raspberry_pi"
+        android:icon="@drawable/raspberry"></item>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Setting_Url"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+    
+    <EditText
+        android:id="@+id/settingsUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="192.168.1.115"
+        android:inputType="text" />
+    
+    
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting User"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+     
+     
+    <EditText
+        android:id="@+id/settingsUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Pi" >
+    </EditText>
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting Pass"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:id="@+id/settingsPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="password"
+        android:inputType="textPassword" />
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting Path"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/settingsPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="/home/pi"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/settingsDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:layout_below="@+id/settingsPath"
+        android:text="done" />
+</LinearLayout>

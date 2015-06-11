@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart"
+            android:text="Start"
+            android:onClick="Start"/>
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnstop"
+            android:text="Stop"
+            android:onClick="Stop"/>
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlay"
+            android:text="Play"
+            android:onClick="Play"/>   
+            
+         <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Sdcard"
+            android:text="Sdcard"/>
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Raspberry"
+            android:text="PI"/>
+            
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setting"
+            android:text="Setting"/>
+        
+        
+                             
+    </TableRow>
+    <VideoView
+        android:id="@+id/vdview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="clip_vertical" />
+
+</LinearLayout>
